@@ -34,7 +34,7 @@ public class Queue<abc> {
 
 	}
 
-	public void add(abc element) {
+	public void enqueue(abc element) {
 
 		if (isFull())
 
@@ -66,7 +66,7 @@ public class Queue<abc> {
 
 	}
 
-	public abc remove() {
+	public abc dequeue() {
 
 		if (first == null) {
 
