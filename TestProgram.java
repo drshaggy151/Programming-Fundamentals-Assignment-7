@@ -22,7 +22,7 @@ public class TestProgram {
 
 				System.out.println("Enqueue " + ch);
 
-				letters.add(ch);
+				letters.enqueue(ch);
 
 			}
 
@@ -46,7 +46,7 @@ public class TestProgram {
 
 		{
 
-			System.out.println("Dequeue " + letters.remove());
+			System.out.println("Dequeue " + letters.dequeue());
 
 		}
 
